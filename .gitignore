@@ -1,0 +1,45 @@
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+
+# =========================
+# Flutter
+# =========================
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/build/
+
+# Flutter generated
+frontend/android/.gradle/
+frontend/android/local.properties
+
+# iOS/macOS
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/macos/Pods/
+
+# =========================
+# Spring Boot / Gradle
+# =========================
+backend/api/.gradle/
+backend/api/build/
+
+# Logs
+*.log
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+.env.production
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
